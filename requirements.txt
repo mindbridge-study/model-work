@@ -1,0 +1,7 @@
+jupyter
+google-cloud-aiplatform
+bigframes==0.26.0
+ipython
+bigframes
+python-dotenv
+google-generativeai
