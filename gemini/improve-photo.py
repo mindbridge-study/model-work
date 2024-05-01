@@ -1,18 +1,18 @@
-import google.generativeai as genai
-import os
-from dotenv import dotenv_values
+# import google.generativeai as genai
+# import os
+# from dotenv import dotenv_values
 
-os.chdir('..')
-config = dotenv_values(".env")  # (format) config = {"USER": "foo", "EMAIL": "foo@example.org"}
+# os.chdir('..')
+# config = dotenv_values(".env")  # (format) config = {"USER": "foo", "EMAIL": "foo@example.org"}
 
-genai.configure(api_key=config["GOOGLE_API_KEY"])
+# genai.configure(api_key=config["GOOGLE_API_KEY"])
 
-model = genai.GenerativeModel('gemini-1.0-pro-latest')
-response = model.generate_content("The opposite of hot is")
-print(response.text)
+# model = genai.GenerativeModel('gemini-1.0-pro-latest')
+# response = model.generate_content("The opposite of hot is")
+# print(response.text)
 
-
-
+#API Key to be Integrated:
+#AIzaSyA9v5vI4pKoobgOfbpvHMGKekfUJrmt4XM
 #Tuned Example
 """
 At the command line, only need to run once to install the package via pip:
